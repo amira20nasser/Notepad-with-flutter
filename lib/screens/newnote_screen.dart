@@ -136,34 +136,6 @@ class NewNoteScreen extends StatelessWidget {
           ),
         ],
       ),
-      // drawer: Drawer(
-      //   child:
-      //   ListView(
-      //     padding: EdgeInsets.zero,
-      //     children: <Widget>[
-      //       DrawerHeader(
-      //         child: Center(child: Text('Header Area')),
-      //         decoration: BoxDecoration(
-      //           color: Colors.blue,
-      //         ),
-      //       ),
-      //       ListTile(
-      //         title: Text('Messages'),
-      //         onTap: () {
-      //           Navigator.pop(context);
-      //           Navigator.pushNamed(context, '/messages');
-      //         },
-      //       ),
-      //       ListTile(
-      //         title: Text('Settings'),
-      //         onTap: () {
-      //           Navigator.pop(context);
-      //           Navigator.pushNamed(context, '/settings');
-      //         },
-      //       ),
-      //     ],
-      //   ),
-      // ),
     );
   }
 }
